@@ -1,13 +1,13 @@
 Con el nombre de Gastos.txt
 Servicio	Viajes		Monto Gastado
-Metro		2		10
-Cablebus		2		10
-EcoBici		2		10
-RTP		2		10
-MetroBus		2		10
+Metro		0		0
+Cablebus		0		0
+EcoBici		0		0
+RTP		0		0
+MetroBus		0		0
 Ruta		2		10
 Tren Ligero		2		10
-Gasolina		1092616192		1168113664
+Gasolina		0		0.00
 
-Su sueldo restante es: 209.00
+Su sueldo restante es: 83.00
 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float gasolina(float *ptrSueldo, float *ptrGastoGas, int *ptrAcuGas){
+float gasolina(float *ptrSueldo, int *ptrAcuGas, float *ptrGastoGas){
 
     float gasto = 0;
     printf("Inserta el gasto en Gasolina\n");

@@ -60,7 +60,7 @@ switch (gasto)
             printf("MetroBus\t\t%d\t\t%d\n",*ptrAcuMBus, (*ptrAcuMBus*5));
             printf("Ruta\t\t%d\t\t%d\n",*ptrAcuRuta, (*ptrAcuRuta*5));
             printf("Tren Ligero\t\t%d\t\t%d\n",*ptrAcuTren, (*ptrAcuTren*5));
-            printf("Gasolina\t\t%d\t\t%d\n",*ptrAcuGas, (*ptrAcuGas*5));
+            printf("Gasolina\t\t%d\t\t%.2f\n",*ptrAcuGas, *ptrGastoGas);
             printf("\nSu sueldo restante es: %.2f\n\n", *ptrSueldo);
             break;
         case 11:
@@ -81,7 +81,7 @@ switch (gasto)
             fprintf(fd,"MetroBus\t\t%d\t\t%d\n",*ptrAcuMBus, (*ptrAcuMBus*5));
             fprintf(fd,"Ruta\t\t%d\t\t%d\n",*ptrAcuRuta, (*ptrAcuRuta*5));
             fprintf(fd,"Tren Ligero\t\t%d\t\t%d\n",*ptrAcuTren, (*ptrAcuTren*5));
-            fprintf(fd,"Gasolina\t\t%d\t\t%d\n",*ptrAcuGas, (*ptrAcuGas*5));
+            fprintf(fd,"Gasolina\t\t%d\t\t%.2f\n",*ptrAcuGas, *ptrGastoGas);
             fprintf(fd,"\nSu sueldo restante es: %.2f\n\n", *ptrSueldo);
             break;
         case 0:
