@@ -25,7 +25,6 @@ int main() {
             break;
         case 2:
             printf("Polinomios\n");
-            polynomials();
             break;
         default:
             printf("Opcion no valida");

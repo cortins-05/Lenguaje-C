@@ -56,12 +56,12 @@ void vectors(){
         case 4:
             printVectors(vector1,vector2,quantity);
             printf("Seleccionaste Norma\n");
-            normOfVector(resultVector,vector1,vector2,quantity);
+            normOfVector(vector1,vector2,quantity);
             break;
         case 5:
             printVectors(vector1,vector2,quantity);
             printf("Seleccionaste Angulo entre 2 vectores\n");
-            angleBetweenVectors(resultVector,vector1,vector2,quantity);
+            angleBetweenVectors(vector1,vector2,quantity);
             break;
         default:
             printf("Opcion no disponible\n");
